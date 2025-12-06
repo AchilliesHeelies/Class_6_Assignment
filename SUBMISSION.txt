@@ -1,0 +1,67 @@
+CLASS 6 GIT ASSIGNMENT - VITALI KERGIN
+=======================================
+
+1. GITHUB REPOSITORY LINK
+--------------------------
+https://github.com/AchilliesHeelies/Class_6_Assignment
+
+
+2. MERGE CONFLICT RESOLUTION
+-----------------------------
+[NOTE: Screenshot should be taken from GitHub PR showing the conflict resolution]
+- Pull Request #2: feature/print-name -> main
+- Conflict occurred on line 4 of main.py
+- Resolution: Kept both changes (author name + time output)
+
+
+3. GIT LOG AFTER CHERRY-PICKING
+--------------------------------
+46b4f08 (HEAD -> main, origin/main) Added Hello World message at the beginning
+411d484 Merge pull request #2 from AchilliesHeelies/feature/print-name
+630b981 Merge branch 'main' into feature/print-name
+8a0b6d2 Simplify time and output to only show current time
+894b6ee add author name to output
+
+
+4. GIT CONFIGURATION
+--------------------
+
+Git Aliases:
+------------
+alias.co=checkout
+alias.br=branch
+alias.cm=commit
+alias.st=status
+
+Global .gitignore Content:
+---------------------------
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+
+# Logs
+*.log
+
+
+5. GIT CONFIGURATION (FULL)
+----------------------------
+user.name=Vitali Kergin
+user.email=vkergin@gmail.com
+init.defaultbranch=main
+alias.co=checkout
+alias.br=branch
+alias.cm=commit
+alias.st=status
+core.excludefile=/home/vitali/.gitignore_global
